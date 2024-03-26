@@ -56,6 +56,28 @@
   border-radius: 50%;
   border:5px solid green ;
   top: 0;
+width: 150px;
+height: 150px;
+}
+.navbar-brand a{
+  text-decoration: none;
+  position: absolute;
+  margin-left: 50px;
+  font-family: 'lora', sans-serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.img-navbar{
+  top: 0;
+  float: left;
+  margin-left: 15px;
+  position: absolute;
 
 }
     
