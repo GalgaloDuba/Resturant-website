@@ -11,7 +11,7 @@ html, body {
   }
   .topnav {
     overflow: hidden;
-    background-color: #53e00d;
+    background-color: #f6b319;
     border-radius: 0;
      height: 170px;
      width: 1250px;
@@ -130,7 +130,7 @@ html, body {
   }
    
   #special-title {
-    background-image: url(special.jpg) no-repeat;
+    background-image: url(images/special.jpg) no-repeat;
   
   }
   .special{
@@ -150,7 +150,7 @@ html, body {
     opacity: .8;
   } 
   .map{
-    background-image: url(images/map.PNG);
+    background-image: url(images/map.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
