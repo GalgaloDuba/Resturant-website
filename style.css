@@ -106,6 +106,7 @@ html, body {
   margin: 25px 60px 60px; 
   }
   .row{
+    margin-top: 50px;
     display:flex;
     justify-content: space-between;
     position: relative;
@@ -153,10 +154,66 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+@media screen and (max-width: 540px) {
+  .topnav {
+    display: block;
+  }
+
+  .topnav a{
+    display: block;
+  }
+}
+
+
+
+/* footer */
   .panel-footer{
     margin-top: 30px;
     padding-top: 35px;
     padding-bottom: 30px;
     background-color: #222;
     border-top: 0;
+  }
+
+  
+   .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours, #address {
+    line-height: 2;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #testimonials {
+    font-style: italic;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+  a[ui-sref="admin.auth"] {
+    color: #fff;
+  }
+  section, .text-center{
+    color: white;
+    justify-content: space-between;
+  } 
+  .container1{
+    margin-left: 50px;
+    justify-content: space-between;
+    padding-right: 50px;
+  }
+  #address{
+    margin-left: 250px;
+  }
+  div.text-center{
+    margin-left: 400px;
+    margin-top: 1px;
+    padding-top: 0;
   }
