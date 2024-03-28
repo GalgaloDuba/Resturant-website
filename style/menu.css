@@ -177,6 +177,88 @@ background-repeat: no-repeat;
 background-position: center;
 } 
 
+.panel-footer{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom:30px ;
+  background-color:#222;
+  border-top:0;
+}
+
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+#hours,#address{
+  line-height:2;
+}
+#hours>span,#address>span{
+  font-size: 1.3em;
+}
+#ddress p {
+  color:557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials{
+  font-style: italic;
+}
+#testimonials p:nth-child(2){
+  margin-top:25;
+}
+a[ui-sref="admin.auth"]{
+  color:#fff;
+}
+section, .text-center{
+  color:white;
+  justify-content:space-between;
+}
+.container1{
+  margin-left:50px;
+  justify-content:space-between;
+  padding-right:50px;
+}
+#address{
+  margin-left:250px;
+}
+.text-center{
+  text-align:center;
+  justify-content:center;
+  padding-top:10px;
+  margin-left:30px;
+}
+.hours{
+  margin-left:500px;
+}
+#testimonial{
+  margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .food{
   display: flex;
