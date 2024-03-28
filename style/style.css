@@ -127,7 +127,7 @@ html, body {
     box-shadow: 0 1px 5px 1px #cccccc;
   }
   .menu {
-    background-image: url(images/menu.jpg);
+    background-image: url(../images/menu.jpg);
   }
    
   #special-title {
@@ -135,7 +135,7 @@ html, body {
   
   }
   .special{
-    background-image: url(images/special.jpg);
+    background-image: url(../images/special.jpg);
     background-position: center;
   }
     #menu-title span, #special-title span, #map-title span {
@@ -151,7 +151,7 @@ html, body {
     opacity: .8;
   } 
   .map{
-    background-image: url(images/map.jpg);
+    background-image: url(../images/map.PNG);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -217,4 +217,11 @@ html, body {
     margin-left: 400px;
     margin-top: 1px;
     padding-top: 0;
+  }
+  @media (max-width:970px){
+.topnav{
+  width: 1450px;
+
+}
+ 
   }
