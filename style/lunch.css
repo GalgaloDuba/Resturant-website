@@ -80,7 +80,7 @@ align-items:center ;
 margin-top: 40px;
 }
 .single-menu img{
-    border-radius: 50%;
+    border-radius: 15px 30px ;
     max-width: 110px;
     border: 1px dashed #ddd;
     padding: 3px;
@@ -88,7 +88,7 @@ margin-top: 40px;
     transition: .3s;
 }
 .single-menu:hover img{
-    transform: rotate(360deg);
+    transform: rotate(180deg);
 }
 .single-menu .menu-content h5 {
     columns: white;

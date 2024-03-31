@@ -206,7 +206,14 @@ section, .text-center{
   text-align:center;
   justify-content:center;
   padding-top:10px;
-  margin-left:30px;
+  margin-left:50px;
+}
+
+.text-center p{
+  text-align:center;
+  justify-content:center;
+  padding-top:10px;
+  margin-left:50px;
 }
 .hours{
   margin-left:500px;
