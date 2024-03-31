@@ -107,13 +107,9 @@ position: absolute;
 .container{
 margin: 25px 60px 60px; 
 }
-.text-center{
-  padding-top: 10px;
-  margin-left: 250px;
-  }
-
-
-
+.text-center p{
+  margin-left: 50px;
+}
 .row{
 display:flex;
 justify-content: space-between;
@@ -157,11 +153,6 @@ background-color: #000;
 color: #fff;
 opacity: .8;
 }   
-
-
-
-
-
 .map{
 background-image: url(images/map.PNG);
 background-repeat: no-repeat;
@@ -223,34 +214,6 @@ section, .text-center{
 #testimonial{
   margin-left: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .food{
   display: flex;
   position: relative;
