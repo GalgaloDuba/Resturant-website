@@ -265,13 +265,6 @@ section, .text-center{
     margin-bottom: 50px;
   }
   
-  @media (max-width: 667px) {
-    /* Header */
-    .four {
-      width: 100px;
-      height: 100px;
-    }
-  }
   .category-tile{
     margin-left: 1px;
     margin-top: 20px;
@@ -295,3 +288,127 @@ section, .text-center{
     padding-top: 30px;
     color: green;
   }
+
+  
+  @media screen and (max-width: 520px) {
+    .topnav a {
+     display: none;
+    }
+  }
+
+  /* Move inline styles to external CSS file */
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+  .row {
+    margin: 10px;
+  }
+
+  .topnav {
+    margin-right: 0;
+    padding-right: 10px;
+  }
+
+  .navbar-brand {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .img1 {
+    margin-left: 10px;
+  }
+
+  .container {
+    margin: 10px;
+  }
+
+  .text-center p {
+    margin-left: 10px;
+  }
+
+  .category-tile {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+    margin: 10px;
+  }
+
+  #disapear {
+    display: none; /* Hide elements with id "disapear" on smaller screens */
+  }
+}
+
+/* For even smaller screens, adjust styles as necessary */
+@media screen and (max-width: 480px) {
+  .category-tile {
+    width: calc(100% - 20px);
+  }
+}
+
+/* You can add more media queries as needed */
+
+
+/* Move inline styles to external CSS file */
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+  .topnav {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topnav a {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .topnav-right {
+    float: none;
+  }
+
+  .navbar-brand {
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .img-navbar {
+    display: none; /* Hide logo image on smaller screens */
+  }
+
+  .container {
+    margin: 25px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  #main-content .jumbotron img {
+    width: 100%;
+    height: auto;
+  }
+
+  #home-titles .col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #address {
+    margin-left: 0; /* Reset margin */
+    text-align: center;
+  }
+
+  div.text-center {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  footer.panel-footer {
+    padding: 25px;
+  }
+}
+
+
+

@@ -149,7 +149,7 @@ html, body {
     background-position: center;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 740px) {
   .topnav {
     display: block;
   }
@@ -211,10 +211,65 @@ html, body {
     margin-top: 1px;
     padding-top: 0;
   }
-  @media (max-width:970px){
-.topnav{
-  width: 1450px;
-
-}
  
+  /* Add responsiveness */
+@media screen and (max-width: 768px) {
+  .topnav {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+  .topnav a {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .topnav-right {
+    float: none;
+  }
+
+  .navbar-brand {
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .img-navbar {
+    display: none; /* Hide logo image on smaller screens */
+  }
+
+  .container {
+    margin: 25px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  #main-content .jumbotron img {
+    width: 100%;
+    height: auto;
+  }
+
+  #home-titles .col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #address {
+    margin-left: 0; /* Reset margin */
+    text-align: center;
+  }
+
+  div.text-center {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  footer.panel-footer {
+    padding: 25px;
+  }
+}
