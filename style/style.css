@@ -149,7 +149,7 @@ html, body {
     background-position: center;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 540px) {
   .topnav {
     display: block;
   }
